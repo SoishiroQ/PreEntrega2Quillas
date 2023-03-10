@@ -1,0 +1,130 @@
+Body {
+    background: #1E1E1E;
+    background-size: 100%;
+    width: 1440px;
+    justify-items: center;
+    margin: 0% auto;
+}
+header {
+    display: flex;
+    justify-content: center;
+   
+}
+nav {
+    display: flex;
+    align-items: center;
+    width: 1022px;
+    height: 104px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 104px;
+    margin-left: 134px;
+}
+li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+main {
+    display: grid;
+    justify-content: center;
+    text-align: start;
+    color: #FFFFFF;  
+}
+span {
+    color: #00FF67;
+}
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 960px;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 94px;
+    color: #FFFFFF;
+}
+p {
+    display: grid;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 60px;
+    justify-content: flex-start;
+    color: #FFFFFF;
+}
+.medios {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        color: #00FF67;
+    }
+.ayudanos {
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF; 
+    font-family: 'Roboto';
+}
+.parrafo-section {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+button {
+    display: grid;
+    font-family:'Roboto';
+    font-weight: 600px;
+    font-size: 24px;
+    color: #FFFFFF;
+    width: 240px;
+    height: 60px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    background: #161616;
+    margin-top: 88px;
+}
+button:hover {
+    color: black;
+    font-weight: 700;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 10px 10px 10px ;
+    
+}
+/* imagenes */
+.logo{
+    width: 62px;
+    height: 104;
+}
+
+section {
+    margin-top: 103px;
+}
+/*contenido*/
+.contenido {
+    display: grid;
+    gap: 150px;
+    grid-template-columns: 1fr 1fr;
+
+}
+/*media queri*/
+@media (max-width:480px) {
+    section {
+        
+    }
+}
